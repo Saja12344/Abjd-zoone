@@ -11,6 +11,10 @@ export default defineConfig(({ mode }) => ({
 
   base: "/Abjd-zoone/",
 
+  build: {
+    outDir: "docs",
+    emptyOutDir: true
+  },
   server: {
     host: "::",
     port: 8080,
