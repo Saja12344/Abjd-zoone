@@ -39,7 +39,7 @@
 
 // export default Navbar;
 import { useState } from "react";
-import giraffeMascot from "@/assets/logo.png";
+import giraffeMascot from "@/assets/girffe.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -60,7 +60,6 @@ const Navbar = () => {
         <a href="#" className="flex items-center gap-2">
           <img src={giraffeMascot} alt="أبجد" className="w-10 h-10 rounded-full" />
           <span className="font-display text-xl font-bold text-primary">
-            أبجد
           </span>
         </a>
 
