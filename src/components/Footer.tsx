@@ -1,4 +1,5 @@
 import giraffeMascot from "@/assets/girffe.png";
+import CTS from "@/assets/CTSlogo.png";
 
 const Footer = () => {
   return (
@@ -10,9 +11,10 @@ const Footer = () => {
           
           </span>
         </div>
-        <p className="font-body text-sm opacity-80">
-           أبجد 2026  ©  جميع الحقوق محفوظة.
-        </p>
+       <p className="font-body text-sm opacity-80 flex items-center gap-2">
+  <img src={CTS} alt="CTS logo" className="h-[1em]" />
+  CTS © 2026 — All rights reserved
+</p>
       </div>
     </footer>
   );
