@@ -14,7 +14,7 @@ const App = () => (
       <Toaster />
       <Sonner />
 
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <BrowserRouter >
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
